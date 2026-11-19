@@ -1,0 +1,97 @@
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="theme-color" content="#080d18">
+
+  <title>JARVIS | Personal Assistant</title>
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <main class="app">
+
+    <header>
+
+      <div class="brand">J.A.R.V.I.S.</div>
+
+      <div class="status">
+
+        <span class="status-dot"></span>
+
+        SYSTEM ONLINE
+
+      </div>
+
+    </header>
+
+    <section class="hero">
+
+      <p class="eyebrow">PERSONAL AI ASSISTANT</p>
+
+      <h1>Good evening.</h1>
+
+      <p class="subtitle">Your personal assistant is ready.</p>
+
+      <div class="orb" id="orb">
+
+        <div class="orb-core"></div>
+
+      </div>
+
+      <p id="voiceStatus">Standing by for your command.</p>
+
+      <button id="talkButton">TALK TO JARVIS</button>
+
+      <button id="stopButton" class="secondary">STOP LISTENING</button>
+
+    </section>
+
+    <section class="panel">
+
+      <h2>ASSISTANT RESPONSE</h2>
+
+      <p id="response">Hello. I'm JARVIS, your personal assistant. How can I help you today?</p>
+
+    </section>
+
+    <section class="panel">
+
+      <h2>YOUR PRIORITIES</h2>
+
+      <div id="taskList">
+
+        <p class="empty">No tasks added yet.</p>
+
+      </div>
+
+      <form id="taskForm">
+
+        <input id="taskInput" type="text" placeholder="Add a task..." required>
+
+        <button type="submit">ADD</button>
+
+      </form>
+
+    </section>
+
+    <footer>JARVIS PERSONAL ASSISTANT · VERSION 0.1</footer>
+
+  </main>
+
+  <script src="app.js"></script>
+
+</body>
+
+</html>
